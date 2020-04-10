@@ -23,7 +23,11 @@ form {
   padding: 2rem;
   display: flex;
 }
- 
+
+.button {
+  background-color: firebrick;
+}
+
 .formtext {
   position: relative;
   top: -48px;

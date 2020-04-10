@@ -19,8 +19,9 @@ function App() {
           placeholder="Enter Company Name" 
           required 
         />
-        <button>Click!</button>
-    	</form>
+        <button className="button">Click!</button>
+    	</form><br /><br /><br /><br /><br /><br />
+      <h3>Companies Details here!</h3>
     </div>
   );
 }
