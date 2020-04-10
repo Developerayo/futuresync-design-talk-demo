@@ -1,6 +1,6 @@
 import React from "react";
-import futuresync from "./futuresync.png";
-import "./App.css";
+import futuresync from "./assets/futuresync.png";
+import "./css/App.css";
 // import { useState } from 'react';
 
 function App() {
