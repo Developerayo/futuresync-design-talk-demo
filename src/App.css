@@ -25,10 +25,11 @@ form {
 }
 
 .button {
-  background-color: firebrick;
+  background-color: lightgrey;
 }
 
 .formtext {
+  border: thin solid black;
   position: relative;
   top: -48px;
   background: white;

@@ -16,6 +16,7 @@ function App() {
       <span className="formtext">Name of Company</span>
     	  <input 
           type="text" 
+          className="input"
           placeholder="Enter Company Name" 
           required 
         />
