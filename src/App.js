@@ -1,7 +1,7 @@
 import React from 'react';
 import futuresync from './futuresync.png';
 import './App.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <img src={futuresync} className="App-logo" alt="futuresync" />
       </header>
       <div className="body">
-      <h3>Register</h3>
+      <h3>Register</h3><br /><br />
       </div>
       <form>
       <span className="formtext">Name of Company</span>
