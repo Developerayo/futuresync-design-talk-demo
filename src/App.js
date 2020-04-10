@@ -1,6 +1,6 @@
-import React from 'react';
-import futuresync from './futuresync.png';
-import './App.css';
+import React from "react";
+import futuresync from "./futuresync.png";
+import "./App.css";
 // import { useState } from 'react';
 
 function App() {
@@ -10,18 +10,26 @@ function App() {
         <img src={futuresync} className="App-logo" alt="futuresync" />
       </header>
       <div className="body">
-      <h3>Register</h3><br /><br />
+        <h3>Register</h3>
+        <br />
+        <br />
       </div>
       <form>
-      <span className="formtext">Name of Company</span>
-    	  <input 
-          type="text" 
+        <span className="formtext">Name of Company</span>
+        <input
+          type="text"
           className="input"
-          placeholder="Enter Company Name" 
-          required 
+          placeholder="Enter Company Name"
+          required
         />
         <button className="button">Click!</button>
-    	</form><br /><br /><br /><br /><br /><br />
+      </form>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <h3>Companies Details here!</h3>
     </div>
   );
