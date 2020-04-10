@@ -28,8 +28,13 @@ form {
   background-color: lightgrey;
 }
 
+.input {
+  margin-left: -180px;
+  border: thin solid grey;
+}
+
 .formtext {
-  border: thin solid black;
+  /* border: thin solid black; */
   position: relative;
   top: -48px;
   background: white;
