@@ -19,7 +19,7 @@ function App() {
         <input
           type="text"
           className="input"
-          placeholder="Enter Company Name"
+          placeholder="Cloudinary"
           required
         />
         <button className="button">Click!</button>
