@@ -10,7 +10,7 @@ function App() {
         <img src={futuresync} className="App-logo" alt="futuresync" />
       </header>
       <div className="body">
-      <h3>Hello!</h3>
+      <h3>Register</h3>
       </div>
       <form>
       <span className="formtext">Name of Company</span>
