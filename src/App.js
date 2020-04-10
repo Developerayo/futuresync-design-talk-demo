@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import futuresync from './futuresync.png';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={futuresync} className="App-logo" alt="futuresync" />
       </header>
+      <div className="body">
+      <h3>Hello!</h3>
+      </div>
+      <form>
+      <span className="formtext">Name of Company</span>
+    	  <input 
+          type="text" 
+          placeholder="Enter Company Name" 
+          required 
+        />
+        <button>Click!</button>
+    	</form>
     </div>
   );
 }
